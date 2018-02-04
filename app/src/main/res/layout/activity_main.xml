@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamechangers.android.asklocals.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_behavior="@string/ScrollingAppBarLayoutBehavior">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.gamechangers.android.asklocals.MainActivity"
+        tools:showIn="@layout/activity_main"
+        tools:layout_editor_absoluteY="81dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:clickable="true"
+            android:text="@string/button_send"
+            android:onClick="sendMessage"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:layout_marginEnd="@dimen/fab_margin"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="63dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_behavior="@string/ScrollAwareFABBehavior"
+            android:layout_marginRight="@dimen/fab_margin"
+            tools:context="com.gamechangers.android.asklocals.SheetActivity"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="214dp"
+            android:layout_height="0dp"
+            android:contextClickable="false"
+            android:dropDownWidth="match_parent"
+            android:visibility="visible"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginTop="16dp"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+
+        <ImageButton
+            android:id="@+id/speak_button"
+            style="android: attr/borderlessButtonStyle;"
+            android:onClick="speakButtonClicked"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="0dp"
+            android:contentDescription="Search"
+            android:background="@android:color/transparent"
+            android:layout_gravity="right|center_vertical"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintRight_toLeftOf="@+id/floatingActionButton"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextView"
+            android:layout_marginTop="11dp"
+            tools:layout_constraintLeft_creator="1"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButton"
+            app:layout_constraintLeft_toRightOf="@+id/editTextView"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="15dp" />
+
+        <ListView android:id="@+id/list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_constraintRight_toLeftOf="parent"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.gamechangers.android.asklocals.EditTextWithDeleteButton
+            android:id="@+id/editTextView"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:ems="10"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintRight_toRightOf="@+id/spinner"
+            android:layout_marginTop="63dp"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:drawableRight="@+id/speak_button"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:layout_constraintLeft_toLeftOf="@+id/list" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextView"
+            tools:layout_constraintLeft_creator="1"
+            android:layout_marginBottom="116dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <Switch
+            android:id="@+id/advisorSwitch"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:text="Advisor Mode"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/floatingActionButton"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="16dp"
+            tools:layout_constraintLeft_creator="1"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/editTextView"
+            android:layout_marginLeft="37dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/anchor_point"
+        android:background="@color/colorAccent"
+        app:layout_behavior="@string/BackDropBottomSheetBehavior"
+        android:fitsSystemWindows="true">
+    </android.support.v4.view.ViewPager>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+        android:id="@+id/bottom_sheet"
+        app:layout_behavior="@string/BottomSheetBehaviorGoogleMapsLike"
+        app:anchorPoint="@dimen/anchor_point"
+        app:behavior_hideable="true"
+        android:fitsSystemWindows="true">
+
+        <include
+            layout="@layout/bottom_sheet_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--app:layout_anchor="@id/bottom_sheet"-->
+        <!--app:layout_anchorGravity="top|right|end"-->
+        <!--android:src="@drawable/ic_action_go"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:layout_behavior="@string/ScrollAwareFABBehavior"-->
+        <!--android:clickable="true"/>-->
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/merged_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:tag="modal-appbar"
+        app:layout_behavior="@string/MergedAppBarLayoutBehavior">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="bottom"/>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/expanded_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="8dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="@string/key_binding_default_toolbar_name"/>
+            <ImageButton
+                android:id="@+id/sheet_minimize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_white_24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:background="@null"/>
+            <ImageButton
+                android:id="@+id/sheet_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="260dp"
+                android:background="@null"/>
+        </FrameLayout>
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
