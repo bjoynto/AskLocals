@@ -36,8 +36,9 @@ public final class AskLocalsLandingPageTest {
      * The test first clicks on the Android view, launches the app, and then
      * asserts on the following.
      *
-     * 1) "Map" overlay is visible.
-     * 2) "Reward advisor" button is visible.
+     * 1) App name "AskLocals is visible.
+     * 2) "Map" overlay is visible.
+     * 3) "Reward advisor" button is visible.
      */
 
     @Test
