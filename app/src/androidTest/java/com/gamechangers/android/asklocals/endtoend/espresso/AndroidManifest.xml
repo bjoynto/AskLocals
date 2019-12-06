@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gamechangers.android.asklocals.endtoend.espresso">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <uses-library android:name="android.test.runner"
+                      android:required="false"/>
+        <activity
+            android:name="com.gamechangers.android.asklocals.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gamechangers.android.asklocals.DisplayMessageActivity"></activity>
+        <activity android:name="com.gamechangers.android.asklocals.EditTextWithDeleteButton"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyABZkgxwWHrMvTS6I21sfc_9i9elxoHM6k"/>
+    </application>
+
+    <instrumentation
+        android:name="com.google.android.apps.common.testing.testrunner.Google3InstrumentationTestRunner"
+        android:targetPackage="com.gamechangers.android.asklocals"/>
+
+</manifest>

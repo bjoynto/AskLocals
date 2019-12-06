@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,21 +8,21 @@
     android:layout_height="match_parent"
     tools:context="com.gamechangers.android.asklocals.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:layout_behavior="@string/ScrollingAppBarLayoutBehavior">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:popupTheme="@style/AppTheme.PopupOverlay"/>
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="81dp"
         tools:layout_editor_absoluteX="0dp">
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
             android:layout_width="58dp"
             android:layout_height="58dp"
@@ -167,18 +167,18 @@
             android:layout_marginLeft="37dp"
             app:layout_constraintVertical_bias="0.0" />
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="@dimen/anchor_point"
         android:background="@color/colorAccent"
         app:layout_behavior="@string/BackDropBottomSheetBehavior"
         android:fitsSystemWindows="true">
-    </android.support.v4.view.ViewPager>
+    </androidx.viewpager.widget.ViewPager>
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -195,7 +195,7 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"/>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
     <!--<android.support.design.widget.FloatingActionButton-->
         <!--android:layout_height="wrap_content"-->
@@ -207,7 +207,7 @@
         <!--app:layout_behavior="@string/ScrollAwareFABBehavior"-->
         <!--android:clickable="true"/>-->
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/merged_appbarlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -224,7 +224,7 @@
                 android:layout_height="0dp"
                 android:background="@color/colorPrimary"
                 android:layout_gravity="bottom"/>
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/expanded_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -252,6 +252,6 @@
                 android:layout_marginLeft="260dp"
                 android:background="@null"/>
         </FrameLayout>
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

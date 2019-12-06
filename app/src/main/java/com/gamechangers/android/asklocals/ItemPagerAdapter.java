@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import com.gamechangers.android.asklocals.R;
 
-public class ItemPagerAdapter extends android.support.v4.view.PagerAdapter {
+public class ItemPagerAdapter extends androidx.viewpager.widget.PagerAdapter {
 
     Context mContext;
     LayoutInflater mLayoutInflater;
