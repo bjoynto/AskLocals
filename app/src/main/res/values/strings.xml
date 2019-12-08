@@ -9,6 +9,7 @@
     <string name="pick_place">Choose a place</string>
     <string name="zoom_in">Zoom in</string>
     <string name="zoom_out">Zoom out</string>
+    <string name="edit_text">Edit text</string>
 
     <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
 

@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0886dad-208b-4c57-a5e5-f49c2d5424ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AskLocalsLandingPageTextEditTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageButtonsVisibilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <ignored path="AskLocals.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,6 +44,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <PATH>
@@ -64,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="132" column="67" lean-forward="true" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="67" />
+              <caret line="132" column="67" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5112#5132#0" expanded="true" />
@@ -75,11 +84,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextWithDeleteButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="220">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AskLocalsLandingPageTextEditTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageButtonsVisibilityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,35 +158,17 @@
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="-187">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#350#372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -145,7 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>v4</find>
       <find>annotation</find>
       <find>IntDef</find>
       <find>ActionBar</find>
@@ -167,6 +206,14 @@
       <find>BeforeClass</find>
       <find>sendMessage</find>
       <find>Send</find>
+      <find>getLauncherPackage</find>
+      <find>runner</find>
+      <find>junit</find>
+      <find>15</find>
+      <find>com.google.truth:truth</find>
+      <find>2.5.2</find>
+      <find>com.google.guava:guava</find>
+      <find>AndroidJUnit4</find>
       <find>send</find>
     </findStrings>
     <replaceStrings>
@@ -184,15 +231,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextField.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextFieldActivity.java" />
-        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/WellBehavedEditText.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/voice_recog.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_info_contents.xml" />
         <option value="$USER_HOME$/.android/build-cache/461235352a122d2d4c39b56df3aa60f4b3060c70/output/jars/classes.jar!/com/google/android/gms/maps/model/MarkerOptions.class" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextWithDeleteButton.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/VoiceRecognition.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/border_bottom.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attr.xml" />
@@ -228,13 +271,17 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/endtoend/espresso/BUILD" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/BUILD" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextWithDeleteButton.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AskLocalsLandingPageTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageButtonsVisibilityTest.java" />
       </list>
     </option>
   </component>
@@ -293,7 +340,68 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="androidTest" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="endtoend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="endtoend" type="462c0819:PsiDirectoryNode" />
               <item name="espresso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="endtoend" type="462c0819:PsiDirectoryNode" />
+              <item name="uiautomator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asklocals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AskLocals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AskLocals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +431,7 @@
     <property name="com.android.hv.last.comp.width" value="0" />
     <property name="device.picker.selection" value="070abf2700caaf49" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/androidTest/test/java/com/gamechangers/android/asklocals/endtoend/espresso/androidTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -343,14 +451,15 @@
       <recent name="com.gamechangers.android.asklocals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gamechangers.android.asklocals.endtoend.uiautomator" />
       <recent name="com.gamechangers.android.asklocals" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator" />
       <recent name="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/androidTest/test/java/com/gamechangers/android/asklocals/endtoend/espresso/androidTest" />
       <recent name="$PROJECT_DIR$/app/src/test/java/com/gamechangers/android/asklocals/androidTest" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.testLandingPageBut...()">
+  <component name="RunManager" selected="Android Instrumented Tests.AskLocalsLandingPage... (1)">
     <configuration default="true" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" handler-id="BlazeCommandGenericRunConfigurationHandlerProvider">
       <method />
     </configuration>
@@ -484,13 +593,111 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AskLocalsLandingPage... (1)" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.uiautomator.AskLocalsLandingPageTextEditTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AskLocalsLandingPage..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageTest" />
+      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageButtonsVisibilityTest" />
       <option name="PACKAGE_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testChangeText()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testChangeText" />
+      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.uiautomator.AskLocalsLandingPageTextEditTest" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
@@ -538,7 +745,7 @@
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="testLandingPageButtonsVisible" />
-      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageTest" />
+      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageButtonsVisibilityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -587,7 +794,7 @@
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="testSettingsMenuCanBeOpened" />
-      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageTest" />
+      <option name="CLASS_NAME" value="com.gamechangers.android.asklocals.endtoend.espresso.AskLocalsLandingPageButtonsVisibilityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -643,42 +850,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AskLocals [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AskLocals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -692,18 +863,18 @@
       <item itemvalue="Android App.app" />
       <item itemvalue="Android Instrumented Tests.AskLocalsLandingPage..." />
       <item itemvalue="Android JUnit.ExampleUnitTest" />
-      <item itemvalue="Gradle.AskLocals" />
-      <item itemvalue="Gradle.AskLocals [dependencies]" />
       <item itemvalue="Android Instrumented Tests.testSettingsMenuCa...()" />
       <item itemvalue="Android Instrumented Tests.testLandingPageBut...()" />
+      <item itemvalue="Android Instrumented Tests.AskLocalsLandingPage... (1)" />
+      <item itemvalue="Android Instrumented Tests.testChangeText()" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.AskLocalsLandingPage... (1)" />
+        <item itemvalue="Android Instrumented Tests.testChangeText()" />
         <item itemvalue="Android Instrumented Tests.testLandingPageBut...()" />
         <item itemvalue="Android Instrumented Tests.testSettingsMenuCa...()" />
         <item itemvalue="Android JUnit.ExampleUnitTest" />
-        <item itemvalue="Gradle.AskLocals [dependencies]" />
-        <item itemvalue="Gradle.AskLocals" />
       </list>
     </recent_temporary>
   </component>
@@ -721,27 +892,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AskLocalsLandingPage___ - 2019.12.06 at 17h 11m 21s.xml">
-      <configuration name="AskLocalsLandingPage..." configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testSettingsMenuCa___() - 2019.12.06 at 17h 20m 30s.xml">
-      <configuration name="testSettingsMenuCa...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testLandingPageBut___() - 2019.12.06 at 17h 26m 02s.xml">
-      <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testLandingPageBut___() - 2019.12.06 at 17h 35m 15s.xml">
-      <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testLandingPageBut___() - 2019.12.06 at 17h 37m 24s.xml">
-      <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testLandingPageBut___() - 2019.12.06 at 17h 38m 49s.xml">
-      <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testSettingsMenuCa___() - 2019.12.06 at 17h 40m 33s.xml">
-      <configuration name="testSettingsMenuCa...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="testLandingPageBut___() - 2019.12.06 at 17h 42m 38s.xml">
       <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
@@ -750,6 +900,27 @@
     </history-entry>
     <history-entry file="testLandingPageBut___() - 2019.12.07 at 09h 21m 18s.xml">
       <configuration name="testLandingPageBut...()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AskLocalsLandingPage____(1) - 2019.12.08 at 23h 35m 06s.xml">
+      <configuration name="AskLocalsLandingPage... (1)" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AskLocalsLandingPage___ - 2019.12.08 at 23h 35m 53s.xml">
+      <configuration name="AskLocalsLandingPage..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AskLocalsLandingPage____(1) - 2019.12.08 at 23h 37m 24s.xml">
+      <configuration name="AskLocalsLandingPage... (1)" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testChangeText() - 2019.12.08 at 23h 39m 56s.xml">
+      <configuration name="testChangeText()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AskLocalsLandingPage____(1) - 2019.12.08 at 23h 46m 14s.xml">
+      <configuration name="AskLocalsLandingPage... (1)" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testChangeText() - 2019.12.08 at 23h 48m 59s.xml">
+      <configuration name="testChangeText()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testChangeText() - 2019.12.09 at 00h 00m 27s.xml">
+      <configuration name="testChangeText()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -769,22 +940,23 @@
       <window_info id="Build Variants" order="0" sideWeight="0.15198618" side_tool="true" weight="0.37174723" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.8480138" visible="true" weight="0.37174723" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.8480138" visible="true" weight="0.26818907" />
       <window_info id="Structure" order="4" sideWeight="0.46875" weight="0.24907063" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Captures" order="6" sideWeight="0.49215686" side_tool="true" weight="0.2496" />
       <window_info anchor="bottom" id="Build" weight="0.40603247" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Logcat" weight="0.3074246" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.2761021" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.57930005" side_tool="true" weight="0.3298292" />
       <window_info anchor="bottom" id="Android Monitor" order="1" sideWeight="0.5711095" weight="0.46386334" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.35145196" weight="0.2522996" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.41623232" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.41623232" weight="0.32946634" />
       <window_info anchor="bottom" id="Gradle Console" order="5" sideWeight="0.648548" side_tool="true" visible="true" weight="0.2522996" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4973939" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.46909904" weight="0.56148493" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.46909904" visible="true" weight="0.24941996" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4556962" weight="0.38370565" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -849,20 +1021,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/ExampleInstrumentedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -897,7 +1055,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageButtonsVisibilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
@@ -925,13 +1083,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1009,13 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1110,17 +1254,47 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="297">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="132" column="67" lean-forward="true" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="67" />
+          <caret line="132" column="67" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5112#5132#0" expanded="true" />
@@ -1130,25 +1304,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamechangers/android/asklocals/EditTextWithDeleteButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="220">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/uiautomator/AskLocalsLandingPageTextEditTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageButtonsVisibilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/gamechangers/android/asklocals/endtoend/espresso/AskLocalsLandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

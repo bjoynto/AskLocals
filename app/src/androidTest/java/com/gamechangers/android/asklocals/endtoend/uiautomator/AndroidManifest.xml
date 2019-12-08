@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gamechangers.android.asklocals.endtoend.uiautomator"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="29"/>
+
+    <instrumentation android:targetPackage="com.gamechangers.android.asklocals"
+        android:name="androidx.test.runner.AndroidJUnitRunner"/>
+
+    <application tools:replace="label"/>
+</manifest>

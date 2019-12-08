@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(AndroidJUnit4.class)
-public final class AskLocalsLandingPageTest {
+public final class AskLocalsLandingPageButtonsVisibilityTest {
 
     @Rule
     public IntentsTestRule<MainActivity> activityRule =
@@ -40,7 +40,6 @@ public final class AskLocalsLandingPageTest {
      * 2) "Map" overlay is visible.
      * 3) "Reward advisor" button is visible.
      */
-
     @Test
     public void testLandingPageButtonsVisible() {
         assertThat(activityRule.getActivity()).isNotNull();
