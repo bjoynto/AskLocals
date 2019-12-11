@@ -39,6 +39,7 @@ public class AskLocalsLandingPageTextEditTest {
     private static final int LAUNCH_TIMEOUT = 5000;
 
     private static final String STRING_TO_BE_TYPED = "Nearby restaurant";
+    private static final String DEFAULT_STRING = "Type your question...";
 
     private UiDevice mDevice;
 
@@ -68,13 +69,23 @@ public class AskLocalsLandingPageTextEditTest {
      */
     @Test
     public void testChangeTextSuccessful() {
-        mDevice.findObject(By.text("Type your question..."))
+        mDevice.findObject(By.text(DEFAULT_STRING))
                 .setText(STRING_TO_BE_TYPED);
 
         UiObject2 changedText = mDevice
                 .wait(Until.findObject(By.text(STRING_TO_BE_TYPED)),
                         5000 /* wait 500ms */);
         assertThat(changedText.getText(), is(equalTo(STRING_TO_BE_TYPED)));
+
+        // Change the text back to the default.
+
+        mDevice.findObject(By.text(STRING_TO_BE_TYPED))
+                .setText(DEFAULT_STRING);
+
+        UiObject2 defaultText = mDevice
+                .wait(Until.findObject(By.text(DEFAULT_STRING)),
+                        5000 /* wait 500ms */);
+        assertThat(defaultText.getText(), is(equalTo(DEFAULT_STRING)));
     }
 
     private String getLauncherPackage() {
