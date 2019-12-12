@@ -69,6 +69,7 @@ public class AskLocalsLandingPageTextEditTest {
      */
     @Test
     public void testChangeTextSuccessful() {
+
         mDevice.findObject(By.text(DEFAULT_STRING))
                 .setText(STRING_TO_BE_TYPED);
 
