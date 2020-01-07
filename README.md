@@ -3,7 +3,7 @@ An Android mobile app for crowdsourcing information from local residents.
 
 The app has a category selector dropdown, an advisor radio button, an integrated Map view with controls, an advisor to requestor matchmaking functionality and an optional voice search feature. 
 
-Includes end-to-end automated tests (black box UiAutomator and white box Espresso frameworks).
+Includes end-to-end UI automated tests (black box UiAutomator and white box Espresso frameworks).
 
 
 
